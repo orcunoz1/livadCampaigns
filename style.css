@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.containers {
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 840px;
+  font-size: 18px;
+  color: #fafafa;
+  margin-top: 10px;
+}
+
+.campaigns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.past img {
+  width: 16px;
+  height: 16px;
+}
+
+.past {
+  width: 66.77px;
+  height: 22px;
+  margin-top: 10px;
+  margin-left: 160px;
+  color: #fc9604;
+  font-size: 16px;
+  background-color: rgba(252, 150, 4, 0.1);
+  border: 1px solid rgba(252, 150, 4, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 190px;
+}
+
+.display img {
+  width: 16px;
+  height: 16px;
+}
+
+.btn img {
+  width: 18px;
+  height: 18px;
+}
+
+.shellInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  font-size: 16px;
+  color: #b6b6b6;
+}
+
+.info {
+  color: #fafafa;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.display {
+  align-items: center;
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.btn button {
+  padding: 6px 8px;
+  font-weight: 400;
+  font-size: 16px;
+  height: 33px;
+  width: 220px;
+  background-color: rgba(10, 10, 10, 0.703);
+  color: #fafafa;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.prill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.prillInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pandora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.pandoraInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.disney {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.disneyInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.ford {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.fordInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hepsi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.hepsiInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.algida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.algidaInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.vodafone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.vodafoneInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.intel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.intelInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.surfshark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.surfInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.loreal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.lorealInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.mercedes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.mercedesInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.amazon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.amazonInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.lenovo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.lenovoInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.vitocco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.vitoccoInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pastavilla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 220px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+.pastaInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.bir {
+  display: flex;
+  gap: 10px;
+}
+
+.iki {
+  display: flex;
+  gap: 10px;
+}
+
+.uc {
+  display: flex;
+  gap: 10px;
+}
+
+.dort {
+  display: flex;
+  gap: 10px;
+}
+
+button:hover {
+  background-color: #0076a1;
+}
